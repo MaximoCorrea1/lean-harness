@@ -1,0 +1,16 @@
+{
+  "name": "flowy-harness",
+  "description": "The lean harness: small sessions, Sonnet agents, state in files. One plugin and a user-scope installer.",
+  "owner": {
+    "name": "Flowy",
+    "email": "maximo@flowy.sh"
+  },
+  "plugins": [
+    {
+      "name": "lean",
+      "source": "./lean",
+      "version": "0.4.0",
+      "description": "Keeps a Claude Code session small: one context line with a handoff order past a threshold, a short task-ledger skill, a usage check."
+    }
+  ]
+}

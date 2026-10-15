@@ -1,0 +1,15 @@
+{
+  "description": "One line of context when the session is large. Never blocks.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/context-line.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}

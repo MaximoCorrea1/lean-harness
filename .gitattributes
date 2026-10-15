@@ -1,0 +1,2 @@
+# LF on every checkout (core.autocrlf would give CRLF): the installer compares these sources with the copies it wrote.
+* text=auto eol=lf
